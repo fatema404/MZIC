@@ -47,6 +47,9 @@
         margin: 0;
         border: none;
     }
+    .btttn {
+        display: contents;
+    }
 }
 @media(min-width:0px) and (max-width:375px){
     .note h4{
