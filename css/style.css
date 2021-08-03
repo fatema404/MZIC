@@ -1,0 +1,164 @@
+/* font-family: 'Open Sans', sans-serif;  */
+*{
+    margin: 0;
+    padding: 0;
+} 
+.wid{
+    width: 100%;
+}
+.booking-form{
+    padding: 60px;
+    margin: 45px;
+    line-height: 47px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 19px 0px #95303070;
+}
+.booking-form p{
+    font-size: 20px;
+    font-weight: revert;
+    margin: 20px 0;
+}
+.booking-form p span{
+    color: #953030;
+}
+.step h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: #a89b9b;
+}
+.progress{
+    margin: 10px 0;
+    border-radius: 10px;
+    height: 25px;
+}
+.progress-bar{
+    background-color: #953030;
+    height: 25px;
+    text-align: right;
+}
+.form-one h1{
+    border-bottom: 1px #c3baba solid;
+    padding: 18px 0;
+    font-size: 32px;
+}
+.form-one form input , .form-two form input {
+    text-transform: capitalize;
+    margin: 0 12px;
+    border: 1px solid #000;
+    color: #232323;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 47%;
+    padding: 8px 8px;
+}
+.form-two form input {
+    width: 94%;
+}
+.form-two form input[type='data']{
+    width: 96%;
+}
+.form-one form h3 , .form-two form h3{
+    font-size: 19px;
+    margin: 0;
+    display: flex;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.form-two form h3 {
+    margin-left: 7px;
+    padding: 0;
+}
+.form-one form span , .form-two form span {
+    color: #953030;
+}
+.form-one form input:focus , .form-two form input:focus {
+    border: 1px solid #000;
+    box-shadow: 1px 1px 8px 2px #9530309c;
+    outline: none;
+}
+.form-one form input[type='date']{
+    text-transform: lowercase;
+}
+.form-two form textarea{
+    padding: 80px;
+    border-radius: 7px;
+    width: 98%;
+    border: 1px #232323 solid;
+}
+.form-two form textarea::placeholder{
+    color: white;
+}
+.form-two form textarea:focus-visible{
+    outline: none;
+}
+.dropdown button{
+    font-size: 16px;
+    border-radius: 5px;
+    width: 94%;
+    border: 1px solid #000;
+    text-align: inherit;
+    padding: 8px;
+    background: #fff;
+    color: #a89b9b;
+}
+.dropdown:hover .dropdown-menu{
+    visibility: visible;
+    display: list-item;
+}
+.dropdown .btn-two{
+    width: 98%;
+}
+.dropdown button:focus{
+    background: transparent;
+    color: #868080;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 8px 2px #9530309c;
+    outline: none;
+}
+.dropdown button:hover{
+    background: transparent;
+    color: #868080;
+}
+.note p{
+    color: #000000b8;
+    font-size: 17px;
+    margin: 0;
+    line-height: 26px;
+    padding: 5px 35px;
+}
+.note h4{
+    padding: 18px 0;
+    font-weight: 700;
+    font-size: 22px;
+}
+.note h4 span{
+    color: #953030;
+}
+.bttn{
+    padding: 66px;
+}
+.btn-prev{
+    width: 44%;
+    color: #6d6c78;
+    padding: 18px 44px;
+    margin: 5px;
+    font-weight: 700;
+    border: 1px solid #b80000;
+    transition: all ease-in-out .4s;
+}
+.btn-next{
+    width: 44%;
+    color: #b80000;
+    padding: 18px 44px;
+    font-weight: 700;
+    border: 1px solid #953030;
+    transition: all ease-in-out .4s;
+}
+.btn-prev:hover{
+    background: #b80000;
+    color: #6d6c78;
+}
+.btn-next:hover{
+    background: #b80000;
+    color: #fff;
+}

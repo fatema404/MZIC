@@ -1,0 +1,66 @@
+
+@media(min-width:768px) and (max-width:1023px){
+    .form-one form input, .form-two form input {
+        width: 96%;
+    }
+    .dropdown button {
+        margin: 0px 7px 8px;
+    }
+    .booking-form {
+        padding: 15px;
+        margin: 19px;
+    }
+    .form-one form h3, .form-two form h3 {
+        font-size: 18px;
+    }
+}
+@media(min-width:0px) and (max-width:767px){
+    .booking-form {
+        padding: 15px;
+    }
+    .form-one form input, .form-two form input {
+        width: 94%;
+    }
+    .form-two form input[type='data'] {
+        width: 94%;
+    }
+    .dropdown button{
+        margin: 0 10px;
+    }
+    .dropdown .btn-two {
+        width: 96%;
+    }
+
+}
+@media(min-width:0px) and (max-width:575px){
+    .form-one form h3, .form-two form h3 {
+        font-size: 16px;
+    }
+    .btn-prev , .btn-next{
+        padding: 18px 0;
+    }
+
+}
+@media(min-width:0px) and (max-width:425px){
+    .booking-form {
+        padding: 10px;
+        margin: 0;
+        border: none;
+    }
+}
+@media(min-width:0px) and (max-width:375px){
+    .note h4{
+        font-size: 17px;
+    }
+}
+@media(min-width:0px) and (max-width:320px){
+    .form-one h1 {
+        font-size: 24px;
+    }
+    .note p{
+        padding: 3px;
+    }
+    .btn-prev , .btn-next{
+        width: 88%;
+    }
+}
